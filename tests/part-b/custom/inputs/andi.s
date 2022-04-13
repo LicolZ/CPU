@@ -1,2 +1,2 @@
-addi t9, x0, 1
-xori t10, t9, 0
+addi t0, x0, 1
+xori t1, t0, 0
