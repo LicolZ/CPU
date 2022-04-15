@@ -386,35 +386,34 @@
     </comp>
     <comp lib="0" loc="(520,430)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit0" val="none"/>
-      <a name="bit1" val="none"/>
+      <a name="bit1" val="0"/>
       <a name="bit10" val="1"/>
       <a name="bit11" val="1"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
       <a name="bit15" val="2"/>
       <a name="bit16" val="2"/>
-      <a name="bit17" val="3"/>
-      <a name="bit18" val="3"/>
-      <a name="bit19" val="3"/>
-      <a name="bit2" val="none"/>
+      <a name="bit17" val="2"/>
+      <a name="bit18" val="2"/>
+      <a name="bit19" val="2"/>
+      <a name="bit2" val="0"/>
       <a name="bit20" val="3"/>
       <a name="bit21" val="3"/>
-      <a name="bit22" val="4"/>
-      <a name="bit23" val="4"/>
-      <a name="bit24" val="4"/>
+      <a name="bit22" val="3"/>
+      <a name="bit23" val="3"/>
+      <a name="bit24" val="3"/>
       <a name="bit25" val="4"/>
       <a name="bit26" val="4"/>
       <a name="bit27" val="4"/>
       <a name="bit28" val="4"/>
       <a name="bit29" val="4"/>
-      <a name="bit3" val="none"/>
+      <a name="bit3" val="0"/>
       <a name="bit30" val="4"/>
       <a name="bit31" val="4"/>
-      <a name="bit4" val="none"/>
-      <a name="bit5" val="none"/>
-      <a name="bit6" val="none"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
       <a name="bit7" val="1"/>
       <a name="bit8" val="1"/>
       <a name="bit9" val="1"/>
@@ -427,12 +426,12 @@
       <a name="width" val="5"/>
     </comp>
     <comp lib="0" loc="(560,430)" name="Tunnel">
-      <a name="label" val="rs2"/>
+      <a name="label" val="rs1"/>
       <a name="labelfont" val="SansSerif bold 6"/>
       <a name="width" val="5"/>
     </comp>
     <comp lib="0" loc="(560,450)" name="Tunnel">
-      <a name="label" val="rs1"/>
+      <a name="label" val="rs2"/>
       <a name="labelfont" val="SansSerif bold 6"/>
       <a name="width" val="5"/>
     </comp>
