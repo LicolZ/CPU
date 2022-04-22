@@ -506,6 +506,11 @@
       <a name="labelfont" val="SansSerif bold 6"/>
       <a name="width" val="5"/>
     </comp>
+    <comp lib="0" loc="(590,1000)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="RegWEn"/>
+      <a name="labelfont" val="SansSerif bold 9"/>
+    </comp>
     <comp lib="0" loc="(590,720)" name="Tunnel">
       <a name="label" val="imm"/>
       <a name="width" val="32"/>
@@ -539,13 +544,15 @@
       <a name="label" val="rd"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(700,540)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(710,460)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="rs1"/>
       <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(710,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="RegWEn"/>
+      <a name="labelfont" val="SansSerif bold 9"/>
     </comp>
     <comp lib="0" loc="(720,1000)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -776,6 +783,7 @@
     <wire from="(550,440)" to="(550,450)"/>
     <wire from="(550,450)" to="(560,450)"/>
     <wire from="(570,720)" to="(590,720)"/>
+    <wire from="(590,1000)" to="(590,1010)"/>
     <wire from="(590,220)" to="(590,260)"/>
     <wire from="(590,70)" to="(590,180)"/>
     <wire from="(640,800)" to="(640,1010)"/>
@@ -784,10 +792,11 @@
     <wire from="(690,1000)" to="(690,1010)"/>
     <wire from="(690,530)" to="(710,530)"/>
     <wire from="(700,500)" to="(720,500)"/>
-    <wire from="(700,540)" to="(720,540)"/>
     <wire from="(710,460)" to="(720,460)"/>
     <wire from="(710,520)" to="(710,530)"/>
     <wire from="(710,520)" to="(720,520)"/>
+    <wire from="(710,540)" to="(710,550)"/>
+    <wire from="(710,540)" to="(720,540)"/>
     <wire from="(720,1000)" to="(720,1010)"/>
     <wire from="(750,1000)" to="(750,1010)"/>
     <wire from="(760,210)" to="(770,210)"/>
