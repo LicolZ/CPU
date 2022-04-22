@@ -4,4 +4,4 @@ loop:
   bltu t0, t1, finish
 
 finish:
-  ecall
+  

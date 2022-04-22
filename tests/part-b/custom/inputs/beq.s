@@ -4,4 +4,4 @@ loop:
   beq t0, t1, finish
 
 finish:
-  ecall
+  

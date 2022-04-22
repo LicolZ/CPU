@@ -4,4 +4,4 @@ loop:
   bge t0, t1, finish
 
 finish:
-  ecall
+  
