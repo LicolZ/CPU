@@ -275,6 +275,7 @@
     </comp>
     <comp lib="0" loc="(1340,550)" name="Tunnel">
       <a name="label" val="ALUResult"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1350,750)" name="Tunnel">
@@ -345,13 +346,13 @@
     </comp>
     <comp lib="0" loc="(170,520)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="ALUResult"/>
+      <a name="label" val="pc4"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(170,540)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="pc4"/>
+      <a name="label" val="ALUResult"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
@@ -430,6 +431,7 @@
     </comp>
     <comp lib="0" loc="(340,530)" name="Tunnel">
       <a name="label" val="PROGRAM_COUNTER"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(490,1000)" name="Tunnel">
