@@ -140,7 +140,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#/Users/USER/Desktop/*/UCB/61c/61CProj3B/harnesses/cpu-harness.circ" name="6"/>
+  <lib desc="file#../../../harnesses/cpu-harness.circ" name="6"/>
   <main name="run_main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
