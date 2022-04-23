@@ -696,16 +696,16 @@
     </comp>
     <comp lib="0" loc="(1940,1040)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="is_i_type_csrw"/>
+      <a name="label" val="is_i_type_csr"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(1940,1130)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="is_i_type_csrw"/>
+      <a name="label" val="is_i_type_csr"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(1950,980)" name="Tunnel">
-      <a name="label" val="is_i_type_csrw"/>
+      <a name="label" val="is_i_type_csr"/>
       <a name="labelfont" val="SansSerif bold 9"/>
     </comp>
     <comp lib="0" loc="(200,210)" name="Pin">
