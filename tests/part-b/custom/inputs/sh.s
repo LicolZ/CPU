@@ -1,2 +1,3 @@
-addi, t0, x0, 3
-sh t0, 0(sp)
+addi s0, x0, 0
+addi s1, x0, 4
+sh s1, 200(s0)

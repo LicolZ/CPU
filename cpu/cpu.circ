@@ -1284,13 +1284,14 @@
       <a name="labelfont" val="SansSerif bold 6"/>
       <a name="width" val="3"/>
     </comp>
+    <comp lib="0" loc="(2690,690)" name="Constant"/>
     <comp lib="0" loc="(2700,560)" name="Tunnel">
-      <a name="label" val="WriteData"/>
+      <a name="label" val="MEM_WRITE_DATA"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(2720,760)" name="Tunnel">
-      <a name="label" val="Write_En"/>
+    <comp lib="0" loc="(2740,760)" name="Tunnel">
+      <a name="label" val="MEM_WRITE_ENABLE"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
@@ -1590,7 +1591,7 @@
       <a name="select" val="3"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="2" loc="(2700,760)" name="Priority Encoder">
+    <comp lib="2" loc="(2730,760)" name="Priority Encoder">
       <a name="select" val="4"/>
     </comp>
     <comp lib="3" loc="(190,460)" name="Adder">
@@ -1920,11 +1921,11 @@
     <wire from="(2610,1410)" to="(2630,1410)"/>
     <wire from="(2610,680)" to="(2650,680)"/>
     <wire from="(2610,700)" to="(2640,700)"/>
-    <wire from="(2610,720)" to="(2660,720)"/>
+    <wire from="(2610,720)" to="(2690,720)"/>
     <wire from="(2610,740)" to="(2640,740)"/>
-    <wire from="(2610,770)" to="(2660,770)"/>
-    <wire from="(2610,810)" to="(2660,810)"/>
-    <wire from="(2610,840)" to="(2660,840)"/>
+    <wire from="(2610,770)" to="(2690,770)"/>
+    <wire from="(2610,810)" to="(2690,810)"/>
+    <wire from="(2610,840)" to="(2690,840)"/>
     <wire from="(2620,510)" to="(2630,510)"/>
     <wire from="(2620,530)" to="(2640,530)"/>
     <wire from="(2620,550)" to="(2630,550)"/>
@@ -1933,14 +1934,14 @@
     <wire from="(2630,540)" to="(2630,550)"/>
     <wire from="(2630,540)" to="(2640,540)"/>
     <wire from="(2640,700)" to="(2640,710)"/>
-    <wire from="(2640,710)" to="(2660,710)"/>
+    <wire from="(2640,710)" to="(2690,710)"/>
     <wire from="(2640,730)" to="(2640,740)"/>
-    <wire from="(2640,730)" to="(2660,730)"/>
+    <wire from="(2640,730)" to="(2690,730)"/>
     <wire from="(2650,680)" to="(2650,700)"/>
-    <wire from="(2650,700)" to="(2660,700)"/>
+    <wire from="(2650,700)" to="(2690,700)"/>
     <wire from="(2660,600)" to="(2660,610)"/>
     <wire from="(2680,560)" to="(2700,560)"/>
-    <wire from="(2700,760)" to="(2720,760)"/>
+    <wire from="(2730,760)" to="(2740,760)"/>
     <wire from="(290,530)" to="(320,530)"/>
     <wire from="(320,430)" to="(320,530)"/>
     <wire from="(320,530)" to="(340,530)"/>

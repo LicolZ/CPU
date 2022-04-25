@@ -1,2 +1,5 @@
-addi, t0, x0, 3
-lw t0, 8(sp)
+addi s0, x0, 0
+addi s1, x0, 4
+sw s1, 200(s0)
+
+lw t0, 200(s0)
