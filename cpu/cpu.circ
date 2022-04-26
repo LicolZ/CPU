@@ -211,6 +211,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="CSR_address"/>
       <a name="labelfont" val="SansSerif bold 8"/>
+      <a name="width" val="12"/>
     </comp>
     <comp lib="0" loc="(1080,770)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -218,15 +219,63 @@
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1090,790)" name="Tunnel">
+    <comp lib="0" loc="(1080,790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CSRWen"/>
       <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
-    <comp lib="0" loc="(1090,810)" name="Tunnel">
+    <comp lib="0" loc="(1080,810)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
       <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(1080,910)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="INSTRUCTION"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1090,910)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="none"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
+      <a name="bit15" val="none"/>
+      <a name="bit16" val="none"/>
+      <a name="bit17" val="none"/>
+      <a name="bit18" val="none"/>
+      <a name="bit19" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit20" val="3"/>
+      <a name="bit21" val="3"/>
+      <a name="bit22" val="3"/>
+      <a name="bit23" val="3"/>
+      <a name="bit24" val="3"/>
+      <a name="bit25" val="3"/>
+      <a name="bit26" val="3"/>
+      <a name="bit27" val="3"/>
+      <a name="bit28" val="3"/>
+      <a name="bit29" val="3"/>
+      <a name="bit3" val="none"/>
+      <a name="bit30" val="3"/>
+      <a name="bit31" val="3"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1130,920)" name="Tunnel">
+      <a name="label" val="CSR_address"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+      <a name="width" val="12"/>
     </comp>
     <comp lib="0" loc="(1140,190)" name="Pin">
       <a name="facing" val="south"/>
@@ -1727,7 +1776,12 @@
     <wire from="(1050,1000)" to="(1050,1010)"/>
     <wire from="(1050,190)" to="(1050,220)"/>
     <wire from="(1070,210)" to="(1120,210)"/>
+    <wire from="(1080,750)" to="(1090,750)"/>
     <wire from="(1080,770)" to="(1090,770)"/>
+    <wire from="(1080,790)" to="(1090,790)"/>
+    <wire from="(1080,810)" to="(1090,810)"/>
+    <wire from="(1080,910)" to="(1090,910)"/>
+    <wire from="(1110,920)" to="(1130,920)"/>
     <wire from="(1140,190)" to="(1140,220)"/>
     <wire from="(1160,210)" to="(1210,210)"/>
     <wire from="(1170,480)" to="(1190,480)"/>
