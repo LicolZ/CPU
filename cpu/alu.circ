@@ -488,11 +488,6 @@
       <a name="label" val="sra13"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(780,360)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="slt2"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(790,310)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="sll1"/>
@@ -501,6 +496,11 @@
     <comp lib="0" loc="(800,280)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="add0"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(800,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="slt2"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(800,390)" name="Tunnel">
@@ -715,9 +715,9 @@
     <wire from="(580,310)" to="(600,310)"/>
     <wire from="(630,1080)" to="(670,1080)"/>
     <wire from="(630,490)" to="(650,490)"/>
-    <wire from="(780,360)" to="(870,360)"/>
     <wire from="(790,310)" to="(810,310)"/>
     <wire from="(800,280)" to="(880,280)"/>
+    <wire from="(800,360)" to="(870,360)"/>
     <wire from="(800,390)" to="(820,390)"/>
     <wire from="(800,420)" to="(810,420)"/>
     <wire from="(800,450)" to="(810,450)"/>

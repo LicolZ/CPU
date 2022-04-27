@@ -309,10 +309,6 @@
       <a name="label" val="is_bgeu"/>
       <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
-    <comp lib="0" loc="(110,600)" name="Constant">
-      <a name="value" val="0x20"/>
-      <a name="width" val="6"/>
-    </comp>
     <comp lib="0" loc="(110,830)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="is_add"/>
@@ -403,6 +399,10 @@
       <a name="in_width" val="5"/>
       <a name="out_width" val="6"/>
       <a name="type" val="zero"/>
+    </comp>
+    <comp lib="0" loc="(120,600)" name="Constant">
+      <a name="value" val="0x20"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(1200,250)" name="Splitter">
       <a name="appear" val="center"/>
@@ -977,11 +977,6 @@
       <a name="labelfont" val="SansSerif bold 11"/>
       <a name="width" val="7"/>
     </comp>
-    <comp lib="0" loc="(190,570)" name="Tunnel">
-      <a name="label" val="is_2_ext"/>
-      <a name="labelfont" val="SansSerif bold 8"/>
-      <a name="width" val="6"/>
-    </comp>
     <comp lib="0" loc="(1940,160)" name="Tunnel">
       <a name="label" val="is_r_type"/>
       <a name="labelfont" val="SansSerif bold 9"/>
@@ -1076,6 +1071,11 @@
     <comp lib="0" loc="(2190,800)" name="Constant">
       <a name="value" val="0x7"/>
       <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(220,570)" name="Tunnel">
+      <a name="label" val="is_2_ext"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(2200,300)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1981,7 +1981,7 @@
 80a4 81a4 80c4 80e4 9200 9200 9200 9204
 9224 9244 9284 92a4 93a4 92c4 92e4 2210
 2210 2210 4*3600 3e00 3e00 c604 c22c d608
-e204
+e204 7003 7003
 </a>
       <a name="dataWidth" val="16"/>
     </comp>
@@ -2059,7 +2059,6 @@ e204
     <wire from="(110,1410)" to="(300,1410)"/>
     <wire from="(110,1430)" to="(310,1430)"/>
     <wire from="(110,1450)" to="(320,1450)"/>
-    <wire from="(110,600)" to="(130,600)"/>
     <wire from="(110,830)" to="(290,830)"/>
     <wire from="(110,850)" to="(280,850)"/>
     <wire from="(110,870)" to="(270,870)"/>
@@ -2078,6 +2077,7 @@ e204
     <wire from="(1180,250)" to="(1200,250)"/>
     <wire from="(120,510)" to="(140,510)"/>
     <wire from="(120,560)" to="(140,560)"/>
+    <wire from="(120,600)" to="(130,600)"/>
     <wire from="(1200,460)" to="(1210,460)"/>
     <wire from="(1200,600)" to="(1210,600)"/>
     <wire from="(1220,230)" to="(1250,230)"/>
@@ -2180,7 +2180,7 @@ e204
     <wire from="(180,1080)" to="(340,1080)"/>
     <wire from="(180,1140)" to="(180,1170)"/>
     <wire from="(180,1140)" to="(340,1140)"/>
-    <wire from="(180,570)" to="(190,570)"/>
+    <wire from="(180,570)" to="(220,570)"/>
     <wire from="(1820,1100)" to="(1870,1100)"/>
     <wire from="(1820,1220)" to="(1870,1220)"/>
     <wire from="(1820,1350)" to="(1870,1350)"/>
