@@ -1192,7 +1192,7 @@
     </comp>
     <comp lib="0" loc="(2510,230)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="PC4"/>
+      <a name="label" val="pc4"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
     </comp>
